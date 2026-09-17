@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.37411.7 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.8.12023.21 stable
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersWebApi", "UsersWebApi\UsersWebApi.csproj", "{9972DA57-DEDB-4DA3-81AD-A694EE47F226}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserWebApi", "UsersWebApi\UserWebApi.csproj", "{5BFFFB49-DBEB-2C76-7680-A768060936CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersWebApi.Tests", "UsersWebApi.Tests\UsersWebApi.Tests.csproj", "{CDDA1C22-0CD1-4B79-9346-D300CE6BC72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9972DA57-DEDB-4DA3-81AD-A694EE47F226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9972DA57-DEDB-4DA3-81AD-A694EE47F226}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9972DA57-DEDB-4DA3-81AD-A694EE47F226}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9972DA57-DEDB-4DA3-81AD-A694EE47F226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFFFB49-DBEB-2C76-7680-A768060936CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFFFB49-DBEB-2C76-7680-A768060936CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFFFB49-DBEB-2C76-7680-A768060936CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFFFB49-DBEB-2C76-7680-A768060936CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDDA1C22-0CD1-4B79-9346-D300CE6BC72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDDA1C22-0CD1-4B79-9346-D300CE6BC72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDDA1C22-0CD1-4B79-9346-D300CE6BC72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDDA1C22-0CD1-4B79-9346-D300CE6BC72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
